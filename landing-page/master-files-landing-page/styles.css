@@ -1,0 +1,192 @@
+/*******************
+      Styles
+*******************/
+
+/* Designed iwth a Mobile First Aproch */
+
+html{
+    background-color: #f7f7ff;
+    font-family: 'Montserrat', sans-serif;
+    color: #333131
+}
+
+/* styles for the header section */
+
+body{
+    padding: 10px;
+}
+.logo{
+    width: 114.73px;
+    padding: 10px;
+}
+
+.head-text{
+    font-weight: bold;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.sub-header{
+    font-weight: normal;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.main-image{
+    padding: 20px;
+}
+
+/* Contact Form styles */
+
+.contact-form{
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7%;
+    box-shadow: 3px 4px 10px rgba(102, 102, 102, 0.644);
+    max-width: 85%;
+}
+
+.contact-form h2{
+    font-size: 40px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+}
+
+.contact-form p{
+    font-size: 16px;
+}
+
+.contact-form input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f5;
+    border: 1px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #9b9b9b;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.form-button button{
+    background-color:#57eeab;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #fffd8c;
+    margin-top: 20px; 
+    padding: 15px;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+.footer-content{
+    padding: 20px;
+    width: 90%;
+}
+
+.footer input{
+    float: left;
+    background-color:#f7f7ff;
+    color: #7a7a7a;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.hours input{
+ width: 100px;
+ margin-right: 20px;
+}
+
+.footer button{
+    background-color: #ff8480;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+/********************
+       Sizing      
+*********************/
+
+@media screen and (max-width: 768px){
+
+    .footer button{
+        display: inline-flex;
+        width: 30%;
+    }
+
+    .footer-icons{
+        max-width: 40%;
+        margin: 0 auto;
+    }  
+}
+
+@media screen and (min-width: 1020px){
+
+    .main-image{
+        display: none;
+    }
+
+    .contact-form{
+        float: right;
+        max-width: 80%;
+        object-position: right;
+    }
+
+    .head-text{
+        max-width: 30%;
+    }
+    
+    .sub-header{
+    max-width: 25%;
+    }
+
+    .content{
+        display: inline-flex;
+        float: right;
+    }
+
+    body{
+
+        background-image: url("images/bg-image/scooter.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        background-position-y: 100px;
+    }
+
+}
+
+
