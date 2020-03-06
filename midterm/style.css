@@ -1,0 +1,239 @@
+/********************
+  main body Styles        
+*********************/
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.body{
+    padding: 10%;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 32px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h4{
+    color: #26A682;
+    font-size: 24;
+    font-weight: normal;
+}
+
+/********************
+    Header Styles         
+*********************/
+.header{
+    text-align: center;
+    background-color: #707070
+}
+.header .logo{
+    max-width: 20%;
+    margin-left:auto;
+    margin-right:auto;
+    width:20%;
+}
+
+/* Animation */
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+}
+/********************
+     Navigation         
+*********************/
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+	padding: 15px 25px;
+	display: block;
+	text-align: center;
+}
+
+.nav .active{
+    font-weight: bold;
+}
+
+/********************
+       Footer       
+*********************/
+.footer{
+    background-color: #707070;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color: white;
+}
+
+/********************
+      Buttons       
+*********************/
+button{
+    display: flex;
+    border-style: none;
+    background-color: #26A682;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 9%;  
+    margin: 20px;
+}
+
+/********************
+   About Styles       
+*********************/
+
+.ws{
+ background-color: #F2F2F2;
+ padding: 20px;
+}
+
+.thanks-images{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about{
+    background-image: url(images/about.png);
+    background-position: center;
+    padding: 15%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.services{
+    background-image: url(images/services.png);
+    background-position: center;
+    padding: 20%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/********************
+ contact form styles       
+*********************/
+
+.form{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color:#26A682;
+    padding: 20px;
+    border-radius: 7%;
+    box-shadow: 3px 4px 10px rgba(102, 102, 102, 0.644);
+    max-width: 85%;
+}
+
+.form h2{
+    font-size: 40px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+.form p{
+    font-size: 18px;
+    color: white;
+}
+
+.form input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f5;
+    border: 1px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #9b9b9b;
+}
+
+.form button{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #3C3B3A;
+    border: 1px;
+    border-radius: 8px;
+}
+
+/********************
+      Resizing       
+*********************/
+
+@media screen and (min-width: 80rem) {
+
+    /* Navigation */
+    .logo{
+        display: inline-flex;
+        float: left; 
+        padding-left: 20px;
+    }
+
+	.header .nav{
+        display: inline-flex;
+        background-color: #707070;
+        padding: 50px;
+        margin-left: 45%;
+    }
+
+    /* Contact page */
+
+    .contact-head {
+        display: inline-block;
+        max-width: 60%;
+        padding-right: 19%;
+    }
+    
+    div .form {
+        display: inline-block;
+    }
+/* About Resize */
+
+.thanks{
+    display: inline-block;
+}
+.thanks img{
+    max-width: 20%;
+    vertical-align: middle;
+}
+
+.head-text{
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.about-content .header-image img{
+    display: inline-flex;
+    justify-content: center;
+}
+    
+}
