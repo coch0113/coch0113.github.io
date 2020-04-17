@@ -1,0 +1,97 @@
+img{
+    max-width: 100%;
+}
+
+p{
+    font-family: spartan, sans-serif;
+}
+
+h2{
+    font-family: DK Lemon Yellow Sun;
+}
+ 
+/* Portfolio */
+
+#grid img{
+    padding: 10%;
+}
+
+#head-img{
+    padding: 6%;
+}
+
+.portfolio p{
+    padding: 1%;
+    text-align: center;
+}
+
+footer{
+    background-color: purple;
+    color: white;
+}
+
+/* About */
+
+.about p, h4{
+   padding: 2% 
+}
+
+.about img{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.about footer{
+    text-align: center;
+    padding: 1%;
+}
+
+/* Home Page */
+
+.home h2{
+    text-align: center;
+    padding: 20%;
+    float: left;
+}
+
+#head-img{
+    padding: 10%
+}
+
+#portfolio-btn button{
+    background-color: #F7BA99;
+    color: seashell;
+    border: none;
+    border-radius: 4%;
+}
+
+#portfolio-btn{
+    text-align: center;
+    padding: 2%;
+    border: solid 7px #F7BA99;
+}
+
+#portfolio-btn h4{
+    font-family: Sunrise International Demo;
+    font-size: 3rem;
+    color: purple;
+}
+
+#get-in-touch{
+    background-color: grey;
+    color: white;
+    padding: 20%;
+    text-align: center;
+}
+
+h3{
+    font-family: DK Lemon Yellow Sun;
+    font-size: 5rem;
+}
+
+.home footer{
+    text-align: center;
+    padding: 2%;
+}
+
+
